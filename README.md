@@ -29,3 +29,50 @@ npm install
 yarn install
 # or
 pnpm install
+```
+### 2. Run Development Server
+
+Start the local server:
+
+```bash
+npm run dev
+```
+Open http://localhost:3000 with your browser to see the result. You can start editing the page by modifying src/app/page.tsx. The page auto-updates as you edit the file.
+
+📂 Project Structure
+
+A quick look at the top-level files and directories you'll see in this project:
+```
+src/
+├── app/                  # Next.js App Router Pages
+│   ├── dashboard/        # Protected Dashboard Routes (Users, Settings, etc.)
+│   ├── login/            # Authentication Page
+│   └── layout.tsx        # Root Layout & Font Setup
+├── components/           # Reusable UI Components
+│   ├── dashboard/        # Dashboard-specific widgets (Charts, Tables)
+│   ├── layout/           # Sidebar & Header Navigation
+│   └── ui/               # Atomic Components (Buttons, Avatars, Inputs)
+├── lib/                  # Utilities (Tailwind class merger, helper functions)
+└── styles/               # Global CSS
+```
+
+📖 Documentation & Resources
+-  Next.js Documentation - Learn about Next.js features
+-  Tailwind CSS Docs - Styling documentation.
+-  Recharts - Charting library documentation.
+-  Lucide React - Icon library used in this template.
+
+📄 License
+
+AdminKit is a premium digital product.
+
+✅ You are Allowed to:
+- Use this template for unlimited Personal projects.
+- Use this template for unlimited Commercial projects (SaaS, Client work, Internal tools).
+- Customize and modify the code to fit your specific needs.
+
+❌ You are NOT Allowed to:
+- Resell, redistribute, or share the source code of this template as a standalone product.
+- Claim this template as your own design to sell on marketplaces (e.g., Gumroad, ThemeForest, Etsy).
+
+Created with ❤️ by Hilman Syahid Effrianto.
