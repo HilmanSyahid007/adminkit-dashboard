@@ -1,10 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AdminKit - Modern Next.js Dashboard Template
 
-## Getting Started
+![AdminKit Banner](https://via.placeholder.com/1280x640.png?text=AdminKit+Preview) 
+*(Ganti link di atas dengan link gambar screenshot dashboard kamu nanti)*
 
-First, run the development server:
+**AdminKit** is a premium dashboard template built with **Next.js 14 (App Router)**, **Tailwind CSS**, and **TypeScript**. It comes with a responsive layout, dark mode support, and pre-built components to help you ship your SaaS project faster.
+
+## 🚀 Features
+
+- **Tech Stack:** Next.js 14, React, Tailwind CSS, TypeScript.
+- **App Router:** Fully utilizing the latest Next.js routing features.
+- **UI Components:** Sidebar, Modal, Stats Cards, Buttons, Inputs.
+- **Data Visualization:** Interactive charts using Recharts.
+- **Authentication UI:** Professional split-screen Login page.
+- **Mobile Ready:** Fully responsive design with collapsible sidebar.
+
+## 🛠️ Getting Started
+
+First, make sure you have `node` and `npm` installed. Then, run the development server:
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
 # or
 yarn dev
@@ -12,25 +30,48 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying src/app/page.tsx. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📂 Project Structure
+src/
+├── app/               # Next.js App Router pages
+│   ├── dashboard/     # Protected dashboard routes
+│   ├── login/         # Authentication routes
+│   └── layout.tsx     # Root layout
+├── components/        # Reusable UI components
+│   ├── dashboard/     # Charts & Specific widgets
+│   ├── layout/        # Sidebar & Header
+│   └── ui/            # Atomic components (Button, Avatar, etc.)
+└── lib/               # Utility functions
 
-## Learn More
+📖 Documentation
+To learn more about the technologies used in this template:
 
-To learn more about Next.js, take a look at the following resources:
+Next.js Documentation - learn about Next.js features and API.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Tailwind CSS - learn about utility classes.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Recharts - learn about chart customization.
 
-## Deploy on Vercel
+📄 License
+AdminKit is a digital product.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✅ You are allowed to:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Use this template for unlimited personal projects.
+
+Use this template for unlimited commercial projects (SaaS, Client work, Internal tools).
+
+Modify the code to fit your needs.
+
+❌ You are NOT allowed to:
+
+Resell, redistribute, or share the source code of this template as a standalone product.
+
+Claim this template as your own design to sell on marketplaces (Gumroad, ThemeForest, etc.).
+
+Created with ❤️ by Hilman Syahid Effrianto.
+
