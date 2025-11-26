@@ -1,6 +1,6 @@
 # AdminKit - Modern Next.js Dashboard Template
 
-![AdminKit Preview](preview.png)
+![AdminKit Preview](Screenshot 2025-11-26 145520.png)
 > *Note: Replace the image link above with your own dashboard screenshot.*
 
 **AdminKit** is a premium dashboard template built with **Next.js 14 (App Router)**, **Tailwind CSS**, and **TypeScript**. It features a clean architecture, modular components, and a fully responsive design, making it the perfect starter kit for your next SaaS or internal tool.
